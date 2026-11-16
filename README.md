@@ -4,3 +4,5 @@ javascript:(()=>{const d=document.createElement('div');d.style='position:fixed;i
 
 
 javascript:(function(){var d=document.createElement('div');d.style='position:fixed;inset:0;z-index:999999;background:#101827;color:#00ff99;display:flex;align-items:center;justify-content:center;font: bold 36px Arial';d.textContent='JAVASCRIPT EXECUTION VERIFIED';document.body.appendChild(d)})()
+
+javascript:document.body.style.background='black';document.body.style.color='#00ff00';document.body.innerHTML='<h1 style="text-align:center;margin-top:20%">XSS EXECUTION CONFIRMED</h1><p style="text-align:center">JavaScript DOM manipulation successful</p>'
